@@ -1,0 +1,49 @@
+
+.multiple-designs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px
+}
+
+.multiple-designs img{
+    border-radius: 0px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transform: 400ms;
+}
+
+.multiple-designs .image h1{
+    color: #fcb900; 
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+    margin: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

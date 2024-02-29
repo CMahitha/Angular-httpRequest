@@ -1,0 +1,60 @@
+<form [formGroup]="registeredForm" (ngSubmit)="onSubmit()">
+<div class="contactForm">
+<h2>Send Address</h2>
+    <div class="inputBox">
+    <label>Name</label>
+    <input type="text" formControlName="firstName">
+    </div>
+
+   <!----  <div class="inputBox">
+            <label>Phone</label>
+            <input type="tel" formControlName="phone" pattern="[0-9]{10}" >
+            </div> -->
+
+        <div class="inputBox">
+            <label>Address line 1</label>
+            <input type="addr1" formControlName="addr1" required>
+        </div>
+
+        <div class="inputBox">
+            <label>Adress line 2 <span style="color: rgb(106, 105, 105);">(optional)</span></label>
+            <input type="addr2" formControlName="addr2" >
+        </div>
+
+        <div class="inputBox">
+            <label>City</label>
+            <input type="city" formControlName="city" required>
+        </div>
+
+        <div class="inputBox">
+            <label>Country</label>
+            <select name="country" formControlName="country" required>
+                <option value="volvo">India</option>
+                <option value="saab">USA</option>
+                <option value="mercedes">UK</option>
+                <option value="audi">Ireland</option>
+              </select>
+        </div>
+
+        <div class="inputBox">
+            <label>Zip/postcode</label>
+            <input type="zip" formControlName="zip" pattern="[0-6]{6}" required>
+        </div>
+
+
+
+       <!---- <div class="inputBox">
+            <label>Upload File<span>*</span></label>
+        <input type="file" class="Upload-box" formControlName="upload"/>
+        </div>  -->
+        
+    <!--<div class="inputBox">
+        <input type="checkbox" formControlName="checkbox" required>
+        By using this form you agree with the terms *
+        </div> -->
+
+        <div class="inputBox">
+        <input type="submit" value="submit">
+</div>
+</div>
+    </form>

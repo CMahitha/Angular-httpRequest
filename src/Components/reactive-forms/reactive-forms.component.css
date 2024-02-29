@@ -1,0 +1,107 @@
+
+.contactForm
+
+{
+ width: 35%;
+padding: 35px;
+background: white;
+margin-top: 10%;
+margin-left: 28%;
+ }
+
+.contactForm h2
+ {
+
+font-size: 30px;
+color: #333;
+font-weight: 500;
+ }
+
+.contactForm .inputBox
+{
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+
+
+.contactForm .input-field label{
+    
+    text-transform: uppercase;
+    
+}
+
+.contactForm .input-field label span{
+    color: red;
+}
+.contactForm .inputBox input
+{
+width: 100%;
+padding: 5px 0;
+font-size: 14px;
+margin: 10px 0;
+border: none;
+background: #333;
+height: 36px;
+outline: none;
+resize: none;
+color: #fff;
+padding-left: 15px;
+padding-top: 10px;
+}
+
+.contactForm .inputBox select
+{
+width: 100%;
+padding: 5px 0;
+font-size: 14px;
+margin: 10px 0;
+border: none;
+background: #333;
+height: 36px;
+outline: none;
+resize: none;
+color: #fff;
+padding-left: 15px;
+padding-top: 10px;
+}
+
+.contactForm .inputBox .upload-box{
+    
+    font-size: 5px;
+    align-items: center;
+padding: 5px 0;
+
+}
+
+.contactForm .inputBox textarea{
+    width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+background: #333;
+height: 100px;
+color: #fff;
+padding-left: 15px;
+outline: none;
+resize: none;
+}
+
+
+.contactForm .inputBox input[type="checkbox"]{
+    height: 14px;
+    width: 14px;
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+width: 80px;
+background: #af9d17;
+color: #fff;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+padding: 10px;
+font-size: 15px;
+}
